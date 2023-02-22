@@ -1,0 +1,114 @@
+/* Comment CSS */
+
+.comment-module {
+  justify-content: center;
+}
+
+.comment-container {
+  display: flex;
+  justify-content: center;
+}
+
+.comment-list {
+  width: 50vw;
+  max-width: 50vh;
+  font-size: 1.5vh;
+  background-color: white;
+}
+.comment-list li {
+  margin: 0 0 1.5vh 0;
+  background: #ffffff;
+  padding: 1.5vh;
+}
+
+.comment-user {
+  display: flex;
+  align-items: center;
+  margin: 0 0 10px 0;
+}
+
+.comment-username {
+  margin-right: 5px;
+  color: #3b3b3b;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.on {
+  margin-right: 5px;
+}
+
+.comment-text {
+  letter-spacing: 0.1px;
+  background: white;
+  color: #3b3b3b;
+  padding: 1.5vh;
+  padding-bottom: 3vh;
+  background: #e8e8e8;
+}
+.comment-text.last-child {
+  margin: 0;
+}
+
+.comment-name {
+  font-size: 1.5vh;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 2vh;
+  padding-top: 2vh;
+  padding-inline: 1.5vh;
+  width: 50vw;
+  max-width: 50vh;
+  color: #3b3b3b;
+}
+
+.comment-form {
+  font-size: 1.5vh;
+  padding: 1.5vh;
+  width: 50vw;
+  max-width: 50vh;
+}
+
+.comment-submit-button {
+  background: #e8e8e8;
+  border: 5px solid #ffffff;
+  font: "Poppins", "Century Gothic", Futura, sans-serif;
+  font-size: 1.5vh;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #3b3b3b;
+  letter-spacing: 0.5px;
+
+  float: right;
+  width: 21vw;
+  height: 7vw;
+  max-width: 21vh;
+  max-height: 7vh;
+}
+
+.comment-submit-button:hover {
+  background-color: #ffffff;
+  -webkit-box-shadow: inset 0px 0px 0px 2px #93939d;
+  -moz-box-shadow: inset 0px 0px 0px 2px #93939d;
+  box-shadow: inset 0px 0px 0px 2px #93939d;
+  color: #3b3b3b;
+}
+
+.text-area {
+  background: #e8e8e8;
+  font-weight: 500px;
+  letter-spacing: 0.1px;
+  padding: 1vh;
+  width: 100%;
+}
+
+.text-area:hover {
+  text-decoration: underline;
+  text-decoration-color: #c2c2c2;
+}
+
+.text-area:focus {
+  outline: none;
+}
